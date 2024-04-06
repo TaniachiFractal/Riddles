@@ -21,6 +21,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AnswerActivity"
+            android:label="@string/answer"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".StatsActivity"
+            android:label="@string/stats"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

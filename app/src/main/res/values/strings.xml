@@ -4,4 +4,6 @@
     <string name="answer">Ответить</string>
     <string name="stats">Статистика</string>
     <string name="check">Проверка</string>
+    <string name="restart">Главная</string>
+    <string name="exit">Выход</string>
 </resources>
