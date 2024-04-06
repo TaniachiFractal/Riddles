@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Riddles</string>
+    <string name="riddle">Загадка</string>
+    <string name="answer">Ответить</string>
+    <string name="stats">Статистика</string>
+    <string name="check">Проверка</string>
+</resources>
