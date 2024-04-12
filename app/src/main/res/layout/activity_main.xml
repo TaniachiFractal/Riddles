@@ -10,6 +10,7 @@
     android:gravity="center"
     >
     <TextView
+        android:id="@+id/tvRiddleId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0/10"
@@ -23,6 +24,7 @@
         android:layout_margin="10sp"/>
     <TextView
         android:id="@+id/tvRiddle"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"

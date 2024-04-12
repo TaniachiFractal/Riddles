@@ -1,6 +1,36 @@
 package maslovat.taniachifractal.riddles
+
+import kotlinx.coroutines.withTimeoutOrNull
+
 /**Data of a single riddle*/
-class Riddle(id:Int, text: String, answer:String, wrong0:String, wrong1:String, wrong2:String) {}
+class Riddle(
+    private val id:Int,
+    private val text: String,
+    private val answer:String,
+    private val wrong0:String,
+    private val wrong1:String,
+    private val wrong2:String
+)
+{
+    public fun getText():String
+    {
+        return text
+    }
+    public fun getAnswer():String
+    {
+        return answer
+    }
+    public fun getWrong(i:Int):String
+    {
+        return when(i)
+        {
+            0 -> wrong0;
+            1 -> wrong1;
+            2 -> wrong2;
+            else -> "error"
+        }
+    }
+}
 /**List of data of all riddles*/
 var riddlesTable = arrayListOf(
     Riddle(1,"Какая функция выводит данные с переносом строки в Kotlin?",

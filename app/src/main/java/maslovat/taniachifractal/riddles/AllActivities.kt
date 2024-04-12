@@ -1,7 +1,10 @@
 package maslovat.taniachifractal.riddles
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+
+var crRdId = 0
+var correctCount = 0
+var solvedCorrectly = false
 
 /**Methods for all activities*/
 class AllActivities : AppCompatActivity()
