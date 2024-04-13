@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import maslovat.taniachifractal.riddles.databinding.ActivityAnswerBinding
 import maslovat.taniachifractal.riddles.databinding.ActivityMainBinding
 import maslovat.taniachifractal.riddles.databinding.ActivityStatsBinding
+import java.lang.Appendable
 import kotlin.system.exitProcess
 
 class StatsActivity:AppCompatActivity()
 {
+    lateinit var a: Appendable
     private lateinit var fldStats: ActivityStatsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +35,6 @@ class StatsActivity:AppCompatActivity()
 
     private fun btExit_Click()
     {
-        1/0
+        throw Exception()
     }
 }
